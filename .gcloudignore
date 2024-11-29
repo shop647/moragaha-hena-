@@ -1,0 +1,13 @@
+# Exclude development and source files
+node_modules/
+src/
+.git/
+.gitignore
+.env
+*.log
+
+# Include only production files
+!dist/
+!app.yaml
+!package.json
+!package-lock.json
